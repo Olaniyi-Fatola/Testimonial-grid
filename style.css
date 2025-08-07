@@ -13,4 +13,52 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 0.812rem;
     background-color: hsl(0, 0%, 100%);
+    text-wrap: balance;
+    overflow-wrap: break-word;
 }
+
+.containers {
+    display: flex;
+}
+h1{
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 0.42rem;
+    font-weight: 500;
+}
+h3{
+    font-size: 1em;
+    font-weight: 600;
+}
+p{
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+.box1{
+    display: flex;
+}
+img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2em;
+    border-width: 0.2em;
+    border-color: white;
+    border-style: solid;
+}
+.profile{
+    display: flex;
+}
+.name {
+    padding: 0.65em;
+}
+.daniel {
+    height: 9rem;
+    width: 45rem;
+    margin: 1rem;
+    padding: 1rem;
+    background: linear-gradient(top,#eee5ff,#c4a2f6,#7541c8 );
+}
+
