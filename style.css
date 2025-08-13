@@ -80,7 +80,7 @@ p{
     line-height: 1.5em;
 }
 .daniel, .jonathan, .patrick, .jeanette, .kira {
-    box-shadow: 2em 3em 1.2em rgba(0, 0, 0, 0.1);
+    box-shadow: 2em 3em 1.5em rgba(0, 0, 0, 0.15);
 }
 .jonathan {
     height:13rem;
