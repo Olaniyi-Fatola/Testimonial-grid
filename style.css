@@ -46,6 +46,10 @@ img{
 .profile{
     display: flex;
 }
+
+.daniel .content {
+    margin-top: -4em;
+}
 .name {
     align-content: center;
     line-height: 0.8em;
@@ -56,16 +60,17 @@ img{
     width: 23rem;
     margin: 0.7rem;
     padding: 1.5rem;
+    padding-top: 0;
     border-radius: 0.5em;
     background-color : hsl(263, 55%, 52%);
     color: white;
 }
 .quotation {
-    width: 4rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border-width: 0;
     border-radius: 0;
-    margin-inline-start: 12em;
+    margin-inline-start: 18em;
     padding: 0em;
 }
 h3 {
@@ -92,7 +97,7 @@ p{
 }
 
 .jeanette {
-    height:13rem;
+    height:12rem;
     width: 10.5rem;
     margin: 0.7rem;
     padding: 1.5rem;
@@ -102,7 +107,7 @@ p{
 }
 
 .patrick {
-    height: 13rem;
+    height: 12rem;
     width: 23rem;
     margin: 0.7rem;
     padding: 1.5rem;
@@ -112,7 +117,7 @@ p{
 }
 
 .kira {
-    height:27rem;
+    height:26.5rem;
     width: 10.5rem;
     margin: 0.7rem;
     padding: 1.5rem;
@@ -125,5 +130,5 @@ p{
     color: hsl(217, 19%, 35%);
 }
 .footnote {
-    align-content: center;
+    display: flex;
 }
