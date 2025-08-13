@@ -1,18 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
 body {
     display: flex;
-    margin: auto;
+    margin: 3rem;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 0.812rem;
     background-color: hsl(214, 17%, 92%);
+    overflow-wrap: break-word;
 }
 
 .containers {
@@ -123,8 +125,10 @@ p{
 .jeanette h3, .kira h3 {
     color: hsl(217, 19%, 35%);
 }
-.footnote {
+.attribution {
     display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 @media ( max-width:768px ) {
@@ -159,9 +163,6 @@ p{
 .kira {
     height:21rem;
     width: 12.66rem;
-}
-.footnote {
-    visibility: hidden;
 }
 
 }
