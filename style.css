@@ -13,7 +13,6 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 0.812rem;
     background-color: hsl(214, 17%, 92%);
-    overflow-wrap: break-word;
 }
 
 .containers {
@@ -132,7 +131,7 @@ p{
     body {
         display: flex;
         flex-direction: column;
-        text-align: balance;
+        text-wrap: balance;
         min-height: 100vh;
     }
     .containers, .box1, .box2 {
@@ -160,6 +159,9 @@ p{
 .kira {
     height:21rem;
     width: 12.66rem;
+}
+.footnote {
+    visibility: hidden;
 }
 
 }
