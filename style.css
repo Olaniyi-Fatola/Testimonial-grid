@@ -31,6 +31,7 @@ h2{
 h3{
     font-size: 1em;
     font-weight: 600;
+    margin-block: 1em;
 }
 
 .box1, .box2{
@@ -73,9 +74,6 @@ img{
     border-radius: 0;
     margin-inline-start: 18em;
     padding: 0em;
-}
-h3 {
-    margin-block: 1em ;
 }
 p{
     line-height: 1.5em;
