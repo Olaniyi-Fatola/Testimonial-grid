@@ -32,7 +32,7 @@ h3{
     font-weight: 600;
 }
 
-.box1{
+.box1, .box2{
     display: flex;
 }
 img{
@@ -92,10 +92,6 @@ p{
     color: white;
 }
 
-.box2{
-    display: flex;
-}
-
 .jeanette {
     height:12rem;
     width: 10.5rem;
@@ -124,11 +120,46 @@ p{
     border-radius: 0.5em;
     background-color : white;
     color: hsl(224, 10%, 45%);
-    box-shadow: ;
 }
 .jeanette h3, .kira h3 {
     color: hsl(217, 19%, 35%);
 }
 .footnote {
     display: flex;
+}
+
+@media ( max-width:768px ) {
+    body {
+        display: flex;
+        flex-direction: column;
+        text-align: balance;
+        min-height: 100vh;
+    }
+    .containers, .box1, .box2 {
+        display: grid;
+    }
+    .daniel {
+    height: 20rem;
+    width: 12.66rem;
+}
+.quotation {
+    transform: scale(0);
+}
+.jonathan {
+    height:10.8rem;
+    width: 12.66rem;
+}
+.jeanette {
+    height:10rem;
+    width: 12.66rem;
+}
+.patrick {
+    height: 18rem;
+    width: 12.66rem;
+}
+.kira {
+    height:21rem;
+    width: 12.66rem;
+}
+
 }
